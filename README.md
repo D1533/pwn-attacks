@@ -4,9 +4,8 @@ A set of intentionally vulnerable C programs demonstrating common binary exploit
 The C code is deliberately minimal and straightforward to clearly illustrate each vulnerability.
 
 ### Ret2Win
-- [ret2win no pie](ret2win/no-pie)
-- [ret2win pie](ret2win/pie)
+- [ret2win no pie](ret2win/no-pie) - Overwrite the return address to call a hidden win function.
+- [ret2win pie](ret2win/pie) - Leak an address to defeat PIE and overwrite the return address to call win.
 
-### Ret2Schellcode
-- [ret2shellcode](ret2shellcode)
-
+### Ret2Shellcode
+- [ret2shellcode](ret2shellcode) - Inject and execute shellcode via a stack-based buffer overflow.
