@@ -1,6 +1,7 @@
 ## Pwn-Attacks
 
-A collection of binary exploitation attacks. The main idea is to create easy straighforward vulnerable binaries that show a specific topic and attack them.
+A set of intentionally vulnerable C programs demonstrating common binary exploitation techniques, along with build scripts and example exploits. 
+The C code is deliberately minimal and straightforward to clearly illustrate each vulnerability.
 
 ### Ret2Win
 - [ret2win no pie](ret2win/no-pie)
