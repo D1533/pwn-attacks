@@ -2,7 +2,8 @@
 #include <unistd.h>
 
 void win(){
-    puts("win");
+    char *argv[] = {"/bin/bash", "-p", NULL};
+    execve("/bin/bash", argv, NULL);
 }
 
 void vuln(){
@@ -12,7 +13,6 @@ void vuln(){
 }
 
 int main(){
-    // printf("%p\n", main);
     vuln();
     vuln();
     
