@@ -12,7 +12,7 @@ focus on the attack topic.
 - [stack-write](format-strings/stack-write) - write to a stack variable address using format strings
 
 ### Ret2Win
-- [re2win canary](ret2win/canary) - Leak the canary one byte at a time and overwrite the return address to call a win function.
+- [ret2win with canary](ret2win/canary) - Leak the canary one byte at a time and overwrite the return address to call a win function.
 - [ret2win no pie](ret2win/no-pie) - Overwrite the return address to call a win function.
 - [ret2win pie](ret2win/pie) - Leak an address to defeat PIE and overwrite the return address to call a win function.
 
