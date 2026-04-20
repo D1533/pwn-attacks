@@ -9,6 +9,7 @@ focus on the attack topic.
 - [global-read](format-strings/global-read) - Read a global variable using format strings
 - [global-write](format-strings/global-write) - Write to a global variable address using format strings
 - [stack-read](format-strings/stack-read) - Read a stack variable using format strings
+- [stack-write](format-strings/stack-write) - write to a stack variable address using format strings
 
 ### Ret2Win
 - [re2win canary](ret2win/canary) - Leak the canary one byte at a time and overwrite the return address to call a win function.
