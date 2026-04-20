@@ -5,6 +5,7 @@ The C code is deliberately minimal and straightforward to clearly illustrate eac
 focus on the attack topic.
 
 ### Ret2Win
+- [re2win canary](re2win/canary) - Leak the canary one byte at a time and overwrite the return address to call a win function.
 - [ret2win no pie](ret2win/no-pie) - Overwrite the return address to call a win function.
 - [ret2win pie](ret2win/pie) - Leak an address to defeat PIE and overwrite the return address to call a win function.
 
