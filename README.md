@@ -23,4 +23,5 @@ focus on the attack topic.
 - [ret2shellcode](ret2shellcode) - Inject and execute shellcode via a stack-based buffer overflow.
 
 ### ROP
-- [rop](ROP) - Use Return-Oriented Programming (ROP) gadgets to chain existing code in the binary and achieve arbitrary code execution without injecting shellcode
+- [rop](ROP/basic) - Use Return-Oriented Programming (ROP) gadgets to chain existing code in the binary and achieve arbitrary code
+- [ret2libc](ROP/ret2libc) - Use puts(puts.got) to leak libc address and ROP using libc gadgets
