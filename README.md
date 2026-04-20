@@ -11,6 +11,9 @@ focus on the attack topic.
 - [stack-read](format-strings/stack-read) - Read a stack variable using format strings
 - [stack-write](format-strings/stack-write) - write to a stack variable address using format strings
 
+### Got Overwrite
+- [GOT overwrite](got-overwrite) - Overwrite the puts GOT entry to redirect execution to a win funtion
+
 ### Ret2Win
 - [ret2win with canary](ret2win/canary) - Leak the canary one byte at a time and overwrite the return address to call a win function.
 - [ret2win no pie](ret2win/no-pie) - Overwrite the return address to call a win function.
