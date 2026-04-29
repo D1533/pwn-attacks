@@ -25,3 +25,6 @@ focus on the attack topic.
 ### ROP
 - [rop](ROP/basic) - Use Return-Oriented Programming (ROP) gadgets to chain existing code in the binary and achieve arbitrary code execution
 - [ret2libc](ROP/ret2libc) - Use puts(puts.got) to leak libc address and ROP using libc gadgets
+
+### Misc
+- [scanf-double-overwrite] - Use scanf with "%lf" to overwrite the return address 
