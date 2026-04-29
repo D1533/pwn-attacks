@@ -27,4 +27,4 @@ focus on the attack topic.
 - [ret2libc](ROP/ret2libc) - Use puts(puts.got) to leak libc address and ROP using libc gadgets
 
 ### Misc
-- [scanf-double-overwrite] - Use scanf with "%lf" to overwrite the return address 
+- [scanf-double-overwrite](misc/scanf-double-overwrite) - Use scanf with "%lf" to overwrite the return address 
